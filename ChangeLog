@@ -1,0 +1,20 @@
+08-06-17 Pascal Hinz <hinz@elemente.ms>
+
+	* Gruppen können nur nach bestimmten Kategorien ausgegeben werden.
+	* Wenn eine Gruppe keiner Kategorie zugeordnet ist kommt folgende 
+	  Meldung "Keiner Gruppe zugeordnet", auch dann wenn die Kategorie 
+	  auf versteckt steht!
+	* Ein Seiten-Browser existiert der erst dann angezeigt wird wenn die
+	  maximale "Gruppen Pro Seite"-Anzahl erreicht ist. Jeweils im oberen
+	  und unteren Bereich der Gruppen auslistung.
+	* Wenn eine Gruppe kein Gruppen-Bild hat wird ein default Bild vom 
+	  System eingestellt das über TypoScript definiert werden kann.
+	* Wenn ein nich eingeloggter Frontend User auf die Extension zugreifen
+	  will kommt eine Login-Hinweis-Meldung oder wenn im TypoScript definiert
+	  eine direkte weiterleitung zu dem Login-Formular.
+	* Die Gruppen-Größe wird nach den Mitgliedern berechnet und ist Pluralfähig
+	  das heisst "Keine Mitglieder", "1 Mitglied" und "2 Mitglieder".
+
+08-06-06 Pascal Hinz  <hinz@elemente.ms>
+
+	* Initial release
